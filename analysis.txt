@@ -1,0 +1,36 @@
+What variable(s) are considered the target(s) for your model? 
+
+Here is my target for my model:  
+IS_SUCCESSFUL    
+
+
+
+What variable(s) are considered to be the features for your model? 
+
+Here are the features of my model: 
+APPLICATION_TYPE          
+AFFILIATION               
+CLASSIFICATION            
+USE_CASE                  
+ORGANIZATION              
+STATUS                     
+INCOME_AMT                
+SPECIAL_CONSIDERATIONS    
+ASK_AMT   
+
+What variable(s) are neither targets nor features, and should be removed from the input data? 
+
+I removed the EIN and NAME columns
+
+Were you able to achieve the target model performance? 
+
+I was not able to achieve the targeted performance
+
+What steps did you take to try and increase model performance?
+
+I added epochs and layers to the deep learning model
+
+Summary: Summarize the overall results of the deep learning model. 
+Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+My model only obtained an accuracy of 70 percent and I could improve it by removing more of the unnecessary features. Another way to solve this is using a random forest classifier or logistic classifier since we will have more control and understanding over those models instead of the deep learning model
